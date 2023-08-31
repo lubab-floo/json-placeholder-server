@@ -82,6 +82,11 @@ const schema = {
       minItems: 20,
       items: { $ref: "#/definitions/logDaftarSewa" },
     },
+    logDaftarMobilisasi: {
+      type: "array",
+      minItems: 20,
+      items: { $ref: "#/definitions/logDaftarMobilisasi" },
+    },
     logKategoriMaterialVendor: {
       type: "array",
       minItems: 20,
