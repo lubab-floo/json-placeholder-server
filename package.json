@@ -2,7 +2,7 @@
   "name": "json-placeholder-server",
   "version": "1.0.0",
   "description": "[https://my-json-server.typicode.com/typicode/demo](https://my-json-server.typicode.com/typicode/demo)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "generate": "node generator/generator.js",
     "dev": "NODE_ENV=development node server.js",
