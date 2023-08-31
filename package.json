@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "[https://my-json-server.typicode.com/typicode/demo](https://my-json-server.typicode.com/typicode/demo)",
   "main": "server.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "generate": "node generator/generator.js",
     "dev": "NODE_ENV=development node server.js",
